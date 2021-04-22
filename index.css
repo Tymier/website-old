@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Gloria+Hallelujah&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* Home--------------------------------------------- */
+.intro {
+    opacity: 0.7;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+}
+
+.greeting {
+    opacity: 0.7;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    color: black;
+    background-image: url(images/bg2.jpg);
+    background-size: 100%;
+    
+}
+
+.black {
+    background-color: black;
+    color: yellow;
+    font-family: 'Concert One', cursive;
+    opacity: 0.7;
+}
+
+hr {
+    background-color: yellow;
+    border: none;
+    height: 7px;
+    margin-top: 3rem;
+}
+
+/* About Me----------------------------------------------------------------- */ 
+.about {
+    margin-top: 10rem;
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+   
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    
+    
+    float: left;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Skills ----------------------------------------------------*/
+#languages {
+    padding-top: 3rem;
+    line-height: 1.5;
+}
+
+.skills {
+    font-size: 3rem;
+}
+
+.top {
+    font-size: 3rem;
+    
+    
+}
+
+.bottom {
+    font-size: 3rem;
+    
+}
+
+ul > li {
+    display: inline;
+    
+}
+
+/* NavBar --------------------------------------------------*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    display: yellow;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+
+    .nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 2rem;
+        color: black;
+    }
+
+    .nav-ul li a {
+        padding: 10px;
+    }
+}
+
+/* Projects --------------------------------------------------*/
+.projects {
+    margin-top: 7rem;
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    line-height: 7rem;
+}
+
+.jordan a {
+   text-decoration: none;
+   color: yellow;
+   font-size: 2.5rem;
+}
+
+.jordan a:hover {
+    color: white;
+}
+
+.samsung a {
+   text-decoration: none;
+   color: yellow;
+   font-size: 2.5rem;
+}
+
+.samsung a:hover {
+    color: white;
+}
+
+.restaurant a {
+   text-decoration: none;
+   color: yellow;
+   font-size: 2.5rem;  
+}
+
+.restaurant a:hover {
+    color: white;
+}
+
+.music a {
+   text-decoration: none;
+   color: yellow;
+   font-size: 2.5rem;
+}
+
+.music a:hover {
+    color: white;
+}
+
+.project-container {
+   line-height: 5rem;
+}
+ 
+/* Contact Form -------------------------------------------------*/
+
+input[type=text], .select, textarea {
+    width: 100px;
+    padding: 12px;
+    border: 1px solix #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}
+
+textarea {
+    width: 80%;
+}
+
+#name {
+    width: 80%;
+}
+
+#email {
+    width: 80%;
+}
+
+#subject {
+    width: 80%;
+}
+
+label {
+    right: 30px;
+    font-size: 2rem;
+}
+
+.Aname {
+    font-size: 14rem;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.contact {
+    margin-top: 7rem;
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    line-height: 7rem;
+}
+
+.col-top {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+
+  .col-bottom {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  
