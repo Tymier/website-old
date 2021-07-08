@@ -203,6 +203,26 @@ nav {
     color: white;
 }
 
+.temperature-converter a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 2.5rem;
+ }
+ 
+ .temperature-converter a:hover {
+     color: white;
+ }
+
+ .stopwatch a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 2.5rem;
+ }
+ 
+ .stopwatch a:hover {
+     color: white;
+ }
+
 .project-container {
    line-height: 5rem;
 }
