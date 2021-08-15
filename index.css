@@ -223,6 +223,16 @@ nav {
      color: white;
  }
 
+ .cookbook a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 2.5rem;
+ }
+ 
+ .cookbook a:hover {
+     color: white;
+ }
+
 .project-container {
    line-height: 5rem;
 }
