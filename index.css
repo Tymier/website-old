@@ -163,6 +163,16 @@ nav {
     line-height: 7rem;
 }
 
+.movies a {
+       text-decoration: none;
+   color: yellow;
+   font-size: 2.5rem;
+}
+
+.movies a:hover {
+    color: white;
+}
+
 .jordan a {
    text-decoration: none;
    color: yellow;
