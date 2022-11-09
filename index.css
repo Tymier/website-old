@@ -243,6 +243,16 @@ nav {
      color: white;
  }
 
+ .newera a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 2.5rem;
+ }
+ 
+ .newera a:hover {
+     color: white;
+ }
+
 .project-container {
    line-height: 5rem;
 }
